@@ -116,7 +116,7 @@ const MainContent: React.FC<MainContentProps> = ({ websiteData }) => {
 
   useEffect(() => {
     if (websiteData) {
-      fetch(`${import.meta.env.VITE_API_BASE_URL}/my-content`, {
+      fetch(`${import.meta.env.VITE_API_BASE_URL || 'https://vix-admin.siramirmoghi3.workers.dev'}/my-content`, {
         credentials: 'include',
       })
         .then(response => {
@@ -197,7 +197,7 @@ const MainContent: React.FC<MainContentProps> = ({ websiteData }) => {
 
     setSaving(true);
     try {
-      const response = await fetch(`${import.meta.env.VITE_API_BASE_URL}/content`, {
+      const response = await fetch(`${import.meta.env.VITE_API_BASE_URL || 'https://vix-admin.siramirmoghi3.workers.dev'}/content`, {
         method: 'PUT',
         headers: {
           'Content-Type': 'application/json',
@@ -237,7 +237,7 @@ const MainContent: React.FC<MainContentProps> = ({ websiteData }) => {
         const formData = new FormData();
         formData.append('image', file);
 
-        const response = await fetch(`${import.meta.env.VITE_API_BASE_URL}/upload`, {
+        const response = await fetch(`${import.meta.env.VITE_API_BASE_URL || 'https://vix-admin.siramirmoghi3.workers.dev'}/upload`, {
           method: 'POST',
           body: formData,
           credentials: 'include', // Include cookies for authentication
