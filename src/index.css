@@ -1,0 +1,95 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&display=swap');
+
+/* IRANSansWeb Fonts */
+@font-face {
+  font-family: 'IRANSansWeb';
+  src: url('/fonts/IRANSansWeb/IRANSansWeb_UltraLight.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'IRANSansWeb';
+  src: url('/fonts/IRANSansWeb/IRANSansWeb_Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'IRANSansWeb';
+  src: url('/fonts/IRANSansWeb/IRANSansWeb.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'IRANSansWeb';
+  src: url('/fonts/IRANSansWeb/IRANSansWeb_Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'IRANSansWeb';
+  src: url('/fonts/IRANSansWeb/IRANSansWeb_Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'IRANSansWeb';
+  src: url('/fonts/IRANSansWeb/IRANSansWeb_Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+/* IRANSansWeb FaNum Fonts */
+@font-face {
+  font-family: 'IRANSansWebFaNum';
+  src: url('/fonts/IRANSansWeb/IRANSansWeb(FaNum)_UltraLight.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'IRANSansWebFaNum';
+  src: url('/fonts/IRANSansWeb/IRANSansWeb(FaNum)_Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'IRANSansWebFaNum';
+  src: url('/fonts/IRANSansWeb/IRANSansWeb(FaNum).ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'IRANSansWebFaNum';
+  src: url('/fonts/IRANSansWeb/IRANSansWeb(FaNum)_Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'IRANSansWebFaNum';
+  src: url('/fonts/IRANSansWeb/IRANSansWeb(FaNum)_Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'IRANSansWebFaNum';
+  src: url('/fonts/IRANSansWeb/IRANSansWeb(FaNum)_Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@layer base {
+  html {
+    font-family: 'IRANSansWeb', sans-serif;
+  }
+}
